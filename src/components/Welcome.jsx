@@ -1,4 +1,4 @@
-import {Jumbotron, Button} from 'react-bootstrap'
+import {Jumbotron} from 'react-bootstrap'
 
 const Welcome = (props) => (
     <Jumbotron>
@@ -7,9 +7,9 @@ const Welcome = (props) => (
             This bookstore has been personally curated with all my favorite books to help you open your mind and see everything from a different point of view. 
             I hope you can find what you need!
         </p>
-        <p>
+        {/* <p>
             <Button variant="primary">Explore</Button>
-        </p>
+        </p> */}
     </Jumbotron>
 )
 
