@@ -1,7 +1,16 @@
-body {
-  background-color: whitesmoke;
+#root {
+  background-color: rgb(228, 220, 220);
+  color: rgb(126, 97, 97)
 }
-
+.jumbotron {
+  background-image: url('https://s3.amazonaws.com/prod.assets.thebanner/styles/article-large/s3/article/large/TIN-332%20Books%20from_large.jpg?itok=goIsOQs0');
+  background-image: image(object-fit);
+}
+.jumbotron h1, .jumbotron p {
+  background-color: rgba(245, 245, 245, 0.527);
+  border-radius: 8px;
+  text-align: center;
+}
 .App {
   text-align: center;
 }
