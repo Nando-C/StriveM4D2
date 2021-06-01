@@ -16,7 +16,7 @@ function App() {
         <Welcome />
         <LatestRelease />
       </main>
-      <footer >
+      <footer>
         <MyFooter />
       </footer>
      </div>
