@@ -1,11 +1,10 @@
 import {Jumbotron} from 'react-bootstrap'
 
 const Welcome = (props) => (
-    <Jumbotron>
-        <h1>Welcome!</h1>
+    <Jumbotron className='mt-5'>
+        <h1>Welcome to OpenMind!</h1>
         <p>
-            This bookstore has been personally curated with all my favorite books to help you open your mind and see everything from a different point of view. 
-            I hope you can find what you need!
+            This bookstore has been profesionally curated in order to help readers open their mind and see everything from a different point of view. 
         </p>
         {/* <p>
             <Button variant="primary">Explore</Button>
