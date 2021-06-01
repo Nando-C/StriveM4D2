@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import MyNavBar from './components/MyNavBar';
 import MyFooter from './components/MyFooter';
 import Welcome from './components/Welcome';
+import LatestRelease from './components/LatestRelease'
 
 function App() {
   return (
@@ -11,8 +12,9 @@ function App() {
       <header>
         <MyNavBar />
       </header>
-      <main>
+      <main className='mb-5'>
         <Welcome />
+        <LatestRelease />
       </main>
       <footer className='fixed-bottom'>
         <MyFooter />
